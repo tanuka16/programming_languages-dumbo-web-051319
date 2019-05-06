@@ -12,7 +12,7 @@ def reformat_languages(languages)
           }
         else
           new_hash[language] = {
-            :type => att_value
+            :type => att_value,
             :style => [lan_category]
           }
         end
