@@ -34,7 +34,7 @@ def reformat_languages(languages)
   new_hash = []
 
   languages.each do |lan_category, lan|
-    language.each do
+    lan.each do |lan, attributes|
 
     end
 
