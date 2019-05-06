@@ -1,6 +1,6 @@
 def reformat_languages(languages)
   # your code here
-  new_hash = []
+  new_hash = {}
 
   languages.each do |lan_category, lan|
     lan.each do |language, attributes|
