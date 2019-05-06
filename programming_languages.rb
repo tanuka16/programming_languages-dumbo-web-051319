@@ -35,6 +35,10 @@ def reformat_languages(languages)
 
   languages.each do |lan_category, lan|
     lan.each do |language, attributes|
+      
+      #attributes.each do ||
+
+      end
 
     end
 
